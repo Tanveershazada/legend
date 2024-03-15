@@ -46,6 +46,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 input,
 textarea,
 button,
@@ -127,6 +131,17 @@ img {
 }
 
 /* {############## STYLE SWITCHER #############} */
+.style__switcher {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    padding: 1rem;
+    width: 220px;
+    border: 1px solid var(--border-color);
+    background-color: var(--container-color);
+    border-radius: 0.5rem;
+    z-index: 1000;
+}
 
 /* {############## HEADER & NAV #############} */
 .header {
